@@ -9,7 +9,6 @@ private String sobrenome;
 private int idade;
 private Data Datanascimento;
 
-
 public Data getDatanascimento() {
 	return Datanascimento;
 }
@@ -19,23 +18,7 @@ public void setDatanascimento(Data datanascimento) {
 public int getIdade() {
 	return idade;
 }
- 
 
-
-
-
-
-public static void main(String[] args) {
-	System.out.println("sdfsdgsgdfklfd");
-}  
-
-
-
-
-
-public void setIdade(int idade) {
-	this.idade = idade;
-}
 public String getNome() {
 	return nome;
 }
