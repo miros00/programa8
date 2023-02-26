@@ -1,10 +1,19 @@
 package programa8;
 
+import javax.xml.crypto.Data;
+
 public class pessoa {
 
 private String nome;
 private String sobrenome;
 private int idade;
+private Data Datanascimento;
+public Data getDatanascimento() {
+	return Datanascimento;
+}
+public void setDatanascimento(Data datanascimento) {
+	Datanascimento = datanascimento;
+}
 public int getIdade() {
 	return idade;
 }
