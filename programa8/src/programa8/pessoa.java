@@ -8,6 +8,13 @@ private String nome;
 private String sobrenome;
 private int idade;
 private Data Datanascimento;
+private String bb;
+public String getBb() {
+	return bb;
+}
+public void setBb(String bb) {
+	this.bb = bb;
+}
 public Data getDatanascimento() {
 	return Datanascimento;
 }
